@@ -1,0 +1,52 @@
+{
+  "users": {
+    "user": {
+      "password": "123",
+      "points": 50,
+      "is_admin": false
+    },
+    "admin": {
+      "password": "adminpass",
+      "points": 0,
+      "is_admin": true
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "title": "خاروندن bigderag",
+      "points": 20
+    },
+    {
+      "id": 2,
+      "title": "۱۰ دقیقه پیاده روی",
+      "points": 30
+    },
+    {
+      "id": 3,
+      "title": "مرتب کردن اتاق",
+      "points": 50
+    }
+  ],
+  "shop_items": [
+    {
+      "id": 101,
+      "title": "۲۰ دقیقه یوتیوب",
+      "cost": 40
+    },
+    {
+      "id": 102,
+      "title": "یک قسمت سریال",
+      "cost": 80
+    }
+  ],
+  "submissions": [
+    {
+      "id": 1,
+      "username": "user",
+      "task_id": 3,
+      "task_title": "مرتب کردن اتاق",
+      "status": "pending"
+    }
+  ]
+}
